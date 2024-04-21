@@ -1,4 +1,14 @@
 {
-  "Assets.NAME[CarProp]": "Example Name",
-  "Assets.DESCRIPTION[CarProp]": "Example Description"
+  "Assets.NAME[Cloverleaf_02_LeftTurnConflict]": "Cloverleaf 02 (Left Turn Conflict)",
+  "Assets.DESCRIPTION[Cloverleaf_02_LeftTurnConflict]": "Cloverleaf 02 (Left Turn Conflict)",
+
+  "Assets.NAME[MicroCloverleaf]": "Micro Cloverleaf",
+  "Assets.DESCRIPTION[MicroCloverleaf]": "Micro Cloverleaf",
+
+  "Assets.NAME[SmallStackInterchange]": "Small Stack Interchange",
+  "Assets.DESCRIPTION[SmallStackInterchange]": "Small Stack Interchange",
+
+  "Assets.NAME[SquareMicroCloverleaf_Sinking]": "Square Micro Cloverleaf (Sinking)",
+  "Assets.DESCRIPTION[SquareMicroCloverleaf_Sinking]": "Square Micro Cloverleaf (Sinking)"
 }
+

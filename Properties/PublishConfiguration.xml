@@ -2,16 +2,49 @@
 	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
 	<ModId Value="" />
 	<!--Name of the mod to display to players-->
-	<DisplayName Value="TODO#1" />
+	<DisplayName Value="Mio Overpass Asset Pack" />
 	<!--Short description of the mod-->
-	<ShortDescription Value="TODO#2" />
+	<ShortDescription Value="Provides numerous overpass assets for one-click placement." />
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
-TODO#3
+## Mio Overpass Assets Pack
+Provides numerous overpass assets for one-click placement.
+
+### Warning:
+Assets are experimental. Please back up your save file before use. Known issues include:
+- Once your save uses these assets, removing the mod may cause white textures.
+- If you subscribe to the assets and then unsubscribe (including the pre-installed Asset Importer [Beta]), it may result in errors and missing models.
+- Subscribing to assets without the complete loading of assets (not restarted twice) may lead to errors and missing models.
+- If your mods fail to load successfully while subscribing to assets, it may result in errors/missing models.
+- If this mod's sorting is before Asset Importer, it could lead to errors or duplicate asset loading.
+
+Currently, these issues are related to old road assets or the Asset Importer. The assets themselves are stable.
+If you want to completely remove assets, you need to go to Settings > Asset Importer > DELETE ALL IMPORTED ASSETS button to remove all assets.
+
+## Assets
+
+- Cloverleaf 02 (Left Turn Conflict)
+- Micro Cloverleaf
+- Small Stack Interchange
+- Square Micro Cloverleaf (Sinking)
+
+## Localization
+- en-US
+- zh-HANS
+
+## How to Use
+Install this mod to use.
+
+## Acknowledgment
+Special thanks to Konsi for the asset loading framework.
+
+## More
+If you want to create a similar asset pack, please use this template
+https://github.com/kosch104/CS2-CustomAssetPack
 	</LongDescription>
 	<!--Thumbnail-->
-	<Thumbnail Value="Properties/Thumbnail.png" />
+	<Thumbnail Value="Properties/Thumbnail.jpg" />
 	<!--Screenshot, can be set multiple times-->
 	<Screenshot Value="" />
 	<!--Tag, can be set multiple times-->
@@ -30,4 +63,5 @@ TODO#3
 	</ChangeLog-->
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
 	<ExternalLink Type="discord" Url="https://discord.gg/UkKAfRqfCn" />
+	<ExternalLink Type="github" Url="https://github.com/thx114/MioOverpassAssetPack" />
 </Publish>
